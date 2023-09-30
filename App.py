@@ -208,7 +208,7 @@ def close():
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 # preparation google client file for work with google drive api
 CLIENT_SECRET_FILE = 'client_secret.json'
-API_NAME = 'drive'
+API_NAME = 'GoogleDriveAccess'
 API_VERSION = 'v3'
 SCOPES = ['https://www.googleapis.com/auth/drive']
 service = Create_Service(CLIENT_SECRET_FILE, API_NAME, API_VERSION, SCOPES)
